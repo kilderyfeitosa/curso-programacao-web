@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Hello Word</title>
+</h:head>
+<h:body>
+
+	<h:form>
+		<p:panel header="Cadastro de usuários">
+			<p:panelGrid columns="2">
+				<p:outputLabel value="Nome: " />
+				<p:inputText />
+
+				<p:outputLabel value="Email: " />
+				<p:inputText />
+
+				<p:outputLabel value="Idade: " />
+				<p:inputText />
+
+				<p:commandButton value="Salvar" style="background:#2196F3;color:#fff" />
+			</p:panelGrid>
+		</p:panel>
+	</h:form>
+</h:body>
+</html>
